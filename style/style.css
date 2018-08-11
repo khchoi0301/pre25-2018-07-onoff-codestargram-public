@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.alert {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  margin: 0;
+  border: 1px solid transparent;
+  font-size: 1.4rem;
+  text-align: center;
+  background-color: white;
+  transition: margin .5s linear, opacity .3s linear, background-color .5s linear;
+}
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+#posts li {
+
+}
+h2 {
+  border-bottom: 1px solid #ccc;
+  background-color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+#new-post-form {
+
+}
+.alert-hide {
+  opacity: 0;
+  margin-top: -62px;
+}
